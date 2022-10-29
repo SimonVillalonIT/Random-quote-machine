@@ -1,0 +1,47 @@
+.container {
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 60px;
+    padding: 40px 60px;
+    color: var(--color);
+    width: 400px;
+    height: auto;
+}
+
+#text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+#author{
+    text-align: end;
+}
+
+.icon{
+    margin-right: 20px;
+    font-size: 35px;
+    color: white;
+    background-color: var(--color);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newQuote{
+    color: white;
+    background-color: var(--color);
+    transition: .5s;
+}
+
+.newQuote:hover{
+    transform: scale(1.2);
+}
